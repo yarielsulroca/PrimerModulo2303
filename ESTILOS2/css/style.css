@@ -1,0 +1,88 @@
+/* Formateo de valores por defecto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Aplicamos estilos al elemento body */
+body{
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aplicamos estilos al header*/
+
+header{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;   
+}
+
+/* Aplicamos estilos a los enlaces del header */
+
+header nav a{
+    color: azure;
+    text-decoration: none;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    color: darkgray;
+}
+/* Aplicamos estilos al div contenedor */
+.container{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* Aplicamos estilos a nuestro subtitulo */
+.container h2{
+    color: burlywood;
+    text-align: center;
+}
+
+/* Aplicamos estilos a nuestros form group */
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+/* Aplicamos estilos al form group y su hijo label */
+
+.form-group label{
+   color: white;
+   display: block; 
+   margin-bottom: 5px;
+}
+
+/* Aplicamos estilos a los input */
+
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    color: azure;
+}
+
+/* Aplicamos estilos al input submit mediante pseudoelementos */
+
+.form-group input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+
+
+

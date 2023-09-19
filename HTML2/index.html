@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> Formularios </h1>
+    <hr>
+
+    <form action="">
+        <fieldset>
+            <legend> Información Personal: </legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" placeholder="Ingrese nombre" required>
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" placeholder="Ingrese apellido" required>
+            <br>
+            <br>
+            <label for="email">Correo electrónico</label><br>
+            <input type="email" required placeholder="Ingrese su email">
+            <br>
+            <br>
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" placeholder="contraseña" required>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend> Otra Información:</legend>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0">
+            <br>
+            <br>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+        </fieldset>
+
+        <input type="submit">
+    </form>
+    <hr>
+
+    <h2>Tabla HTML simple</h2>
+
+    <table border="1">
+
+        <caption>Lista de estudiantes</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Curso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emiliano Melegatti</td>
+                <td>26</td>
+                <td> Certificación Full Stack </td>
+            </tr>
+            <tr>
+                <td>Maximiliano</td>
+                <td>31</td>
+                <td>Certificación Full Stack </td>
+            </tr>
+            <tr>
+                <td>Melisa</td>
+                <td>32</td>
+                <td>Certificación Full Stack </td>
+            </tr>
+            <tr>
+                <td>Salomé</td>
+                <td>27</td>
+                <td>Certificación Full Stack </td>
+            </tr>
+            <tr>
+                <td>Facundo</td>
+                <td>28</td>
+                <td>Certificación Full Stack </td>
+            </tr>
+            <tr>
+                <td>Gabi</td>
+                <td>38</td>
+                <td>Certificación Full Stack </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+
+</html>

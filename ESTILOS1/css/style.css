@@ -1,0 +1,39 @@
+/* Hay dos formas principales de escribir CSS */
+/* Podemos escribir mediante elementos o atrubitos de clase */
+
+/* Aplicamos estilos mediante elementos en este caso h1*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #525558;
+}
+
+h1{
+    /*propiedades: valores  */
+    color: red;
+    text-align: center;
+}
+
+/* Aplicamos estilos mediante atributos de clase / class */
+.subtitulo{
+    color: blueviolet;
+    text-align: center;
+}
+
+/* Aplicamos estilos mediante atributo tipo id */
+#subtitulo-tres{
+    color: #20c67a;
+    text-align: center;
+}
+
+p{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
